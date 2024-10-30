@@ -1018,6 +1018,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1252183629678173952, guid: 3edd47e78e56d83489be988739285967, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1252183629678174079, guid: 3edd47e78e56d83489be988739285967, type: 3}
+      propertyPath: orthographic size
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 3986186465089307057, guid: 3edd47e78e56d83489be988739285967, type: 3}
       propertyPath: m_Name
       value: CameraContainer
@@ -1840,7 +1848,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7887264968366857407, guid: bb85f79c575277a4d9cb35ef5e28b447, type: 3}
       propertyPath: speed
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
