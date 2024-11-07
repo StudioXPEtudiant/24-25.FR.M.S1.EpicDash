@@ -9,6 +9,15 @@ EditorBuildSettings:
     path: Assets/StudioXP/Scenes/Titre.unity
     guid: 76f876cbc96f62d45b4a41c710dabb37
   - enabled: 1
+    path: Assets/niv 2.unity
+    guid: 9d752d7bf37469a47bd63edf43d1d6ca
+  - enabled: 1
+    path: Assets/niveau 3.unity
+    guid: e5301521f1332954690b942368379430
+  - enabled: 1
+    path: Assets/niveau 4.unity
+    guid: 0efc5ca1cce37474284c96a3905666b6
+  - enabled: 1
     path: Assets/StudioXP/Scenes/EndGame.unity
     guid: 56ae56a227466d349a5aca14c2f6f3b6
   m_configObjects: {}

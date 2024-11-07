@@ -1384,19 +1384,24 @@ namespace Unity.VisualScripting.Generated.Aot
 	// Unity.VisualScripting.StateMachine.op_Inequality
 	// --------------- Plugin Stubs
 	// --------------- Asset Stubs
-	// StudioXP.Scripts.Components.Movements.Characters.WalkFunction.Walk
-	// StudioXP.Scripts.Components.Movements.Characters.RunFunction.RunStart
-	// UnityEngine.Input.GetAxis
-	// StudioXP.Scripts.Components.Movements.Characters.RunFunction.RunStop
 	// StudioXP.Scripts.Components.Movements.Characters.JumpFunction.JumpStart
+	// StudioXP.Scripts.Components.Movements.Characters.RunFunction.RunStop
+	// StudioXP.Scripts.Components.Movements.Characters.WalkFunction.Walk
+	// UnityEngine.Input.GetAxis
 	// StudioXP.Scripts.Components.Movements.Characters.JumpFunction.JumpStay
+	// StudioXP.Scripts.Components.Movements.Characters.RunFunction.RunStart
 	// StudioXP.Scripts.Components.Movements.Characters.JumpFunction.JumpStop
 	// StudioXP.Scripts.Components.Functions.SendFunction.SendToLastCollision
 	// UnityEngine.Animator.SetBool
-	// StudioXP.Scripts.Components.Handlers.RigidbodyHandler.FreezePosition
 	// StudioXP.Scripts.Components.Movements.Characters.ClimbFunction.MoveHorizontal
 	// StudioXP.Scripts.Components.Movements.Characters.JumpFunction.ForceJumpStart
 	// StudioXP.Scripts.Components.Movements.Characters.ClimbFunction.MoveVertical
+	// StudioXP.Scripts.Components.Handlers.RigidbodyHandler.FreezePosition
+	// --------------- Scene Stubs
+	// --------------- Scene Stubs
+	// UnityEngine.GameObject..ctor
+	// UnityEngine.SpriteRenderer..ctor
+	// --------------- Scene Stubs
 	// --------------- Scene Stubs
 	// --------------- Scene Stubs
 	[UnityEngine.Scripting.PreserveAttribute()]
@@ -17369,37 +17374,14 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// StudioXP.Scripts.Components.Movements.Characters.WalkFunction.Walk
+		// StudioXP.Scripts.Components.Movements.Characters.JumpFunction.JumpStart
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void StudioXP_Scripts_Components_Movements_Characters_WalkFunction_Walk()
+		public static void StudioXP_Scripts_Components_Movements_Characters_JumpFunction_JumpStart()
 		{
-			global::StudioXP.Scripts.Components.Movements.Characters.WalkFunction target = default(global::StudioXP.Scripts.Components.Movements.Characters.WalkFunction);
-			float arg0 = default(float);
-			target.Walk(arg0);
-			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.WalkFunction, float> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.WalkFunction, float>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::StudioXP.Scripts.Components.Movements.Characters.WalkFunction), arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
-		// StudioXP.Scripts.Components.Movements.Characters.RunFunction.RunStart
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void StudioXP_Scripts_Components_Movements_Characters_RunFunction_RunStart()
-		{
-			global::StudioXP.Scripts.Components.Movements.Characters.RunFunction target = default(global::StudioXP.Scripts.Components.Movements.Characters.RunFunction);
-			target.RunStart();
-			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.RunFunction> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.RunFunction>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::StudioXP.Scripts.Components.Movements.Characters.RunFunction));
-			optimized.Invoke(default(object[]));
-		}
-		
-		// UnityEngine.Input.GetAxis
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void UnityEngine_Input_GetAxis()
-		{
-			string arg0 = default(string);
-			global::UnityEngine.Input.GetAxis(arg0);
-			global::Unity.VisualScripting.StaticFunctionInvoker<string, float> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<string, float>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(null, arg0);
+			global::StudioXP.Scripts.Components.Movements.Characters.JumpFunction target = default(global::StudioXP.Scripts.Components.Movements.Characters.JumpFunction);
+			target.JumpStart();
+			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.JumpFunction> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.JumpFunction>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::StudioXP.Scripts.Components.Movements.Characters.JumpFunction));
 			optimized.Invoke(default(object[]));
 		}
 		
@@ -17414,14 +17396,26 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// StudioXP.Scripts.Components.Movements.Characters.JumpFunction.JumpStart
+		// StudioXP.Scripts.Components.Movements.Characters.WalkFunction.Walk
 		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void StudioXP_Scripts_Components_Movements_Characters_JumpFunction_JumpStart()
+		public static void StudioXP_Scripts_Components_Movements_Characters_WalkFunction_Walk()
 		{
-			global::StudioXP.Scripts.Components.Movements.Characters.JumpFunction target = default(global::StudioXP.Scripts.Components.Movements.Characters.JumpFunction);
-			target.JumpStart();
-			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.JumpFunction> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.JumpFunction>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::StudioXP.Scripts.Components.Movements.Characters.JumpFunction));
+			global::StudioXP.Scripts.Components.Movements.Characters.WalkFunction target = default(global::StudioXP.Scripts.Components.Movements.Characters.WalkFunction);
+			float arg0 = default(float);
+			target.Walk(arg0);
+			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.WalkFunction, float> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.WalkFunction, float>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::StudioXP.Scripts.Components.Movements.Characters.WalkFunction), arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.Input.GetAxis
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_Input_GetAxis()
+		{
+			string arg0 = default(string);
+			global::UnityEngine.Input.GetAxis(arg0);
+			global::Unity.VisualScripting.StaticFunctionInvoker<string, float> optimized = new global::Unity.VisualScripting.StaticFunctionInvoker<string, float>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(null, arg0);
 			optimized.Invoke(default(object[]));
 		}
 		
@@ -17433,6 +17427,17 @@ namespace Unity.VisualScripting.Generated.Aot
 			target.JumpStay();
 			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.JumpFunction> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.JumpFunction>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(default(global::StudioXP.Scripts.Components.Movements.Characters.JumpFunction));
+			optimized.Invoke(default(object[]));
+		}
+		
+		// StudioXP.Scripts.Components.Movements.Characters.RunFunction.RunStart
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void StudioXP_Scripts_Components_Movements_Characters_RunFunction_RunStart()
+		{
+			global::StudioXP.Scripts.Components.Movements.Characters.RunFunction target = default(global::StudioXP.Scripts.Components.Movements.Characters.RunFunction);
+			target.RunStart();
+			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.RunFunction> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.RunFunction>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::StudioXP.Scripts.Components.Movements.Characters.RunFunction));
 			optimized.Invoke(default(object[]));
 		}
 		
@@ -17471,18 +17476,6 @@ namespace Unity.VisualScripting.Generated.Aot
 			optimized.Invoke(default(object[]));
 		}
 		
-		// StudioXP.Scripts.Components.Handlers.RigidbodyHandler.FreezePosition
-		[global::UnityEngine.Scripting.PreserveAttribute()]
-		public static void StudioXP_Scripts_Components_Handlers_RigidbodyHandler_FreezePosition()
-		{
-			global::StudioXP.Scripts.Components.Handlers.RigidbodyHandler target = default(global::StudioXP.Scripts.Components.Handlers.RigidbodyHandler);
-			bool arg0 = default(bool);
-			target.FreezePosition(arg0);
-			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Handlers.RigidbodyHandler, bool> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Handlers.RigidbodyHandler, bool>(default(global::System.Reflection.MethodInfo));
-			optimized.Invoke(default(global::StudioXP.Scripts.Components.Handlers.RigidbodyHandler), arg0);
-			optimized.Invoke(default(object[]));
-		}
-		
 		// StudioXP.Scripts.Components.Movements.Characters.ClimbFunction.MoveHorizontal
 		[global::UnityEngine.Scripting.PreserveAttribute()]
 		public static void StudioXP_Scripts_Components_Movements_Characters_ClimbFunction_MoveHorizontal()
@@ -17516,6 +17509,32 @@ namespace Unity.VisualScripting.Generated.Aot
 			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.ClimbFunction, float> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Movements.Characters.ClimbFunction, float>(default(global::System.Reflection.MethodInfo));
 			optimized.Invoke(default(global::StudioXP.Scripts.Components.Movements.Characters.ClimbFunction), arg0);
 			optimized.Invoke(default(object[]));
+		}
+		
+		// StudioXP.Scripts.Components.Handlers.RigidbodyHandler.FreezePosition
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void StudioXP_Scripts_Components_Handlers_RigidbodyHandler_FreezePosition()
+		{
+			global::StudioXP.Scripts.Components.Handlers.RigidbodyHandler target = default(global::StudioXP.Scripts.Components.Handlers.RigidbodyHandler);
+			bool arg0 = default(bool);
+			target.FreezePosition(arg0);
+			global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Handlers.RigidbodyHandler, bool> optimized = new global::Unity.VisualScripting.InstanceActionInvoker<StudioXP.Scripts.Components.Handlers.RigidbodyHandler, bool>(default(global::System.Reflection.MethodInfo));
+			optimized.Invoke(default(global::StudioXP.Scripts.Components.Handlers.RigidbodyHandler), arg0);
+			optimized.Invoke(default(object[]));
+		}
+		
+		// UnityEngine.GameObject..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_GameObject_ctor()
+		{
+			new UnityEngine.GameObject();
+		}
+		
+		// UnityEngine.SpriteRenderer..ctor
+		[global::UnityEngine.Scripting.PreserveAttribute()]
+		public static void UnityEngine_SpriteRenderer_ctor()
+		{
+			new UnityEngine.SpriteRenderer();
 		}
 	}
 }
