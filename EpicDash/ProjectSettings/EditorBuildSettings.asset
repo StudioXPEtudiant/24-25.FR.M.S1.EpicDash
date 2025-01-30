@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/bonuse.unity
     guid: 9e441638a68a8724fa0f1c9feccf0e22
   - enabled: 1
+    path: "Assets/vrai niveau de f\xE9licitation.unity"
+    guid: 4033cb8e1dda7ad449b925de679cd18a
+  - enabled: 1
     path: Assets/StudioXP/Scenes/EndGame.unity
     guid: 56ae56a227466d349a5aca14c2f6f3b6
   m_configObjects: {}
